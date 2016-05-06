@@ -19500,9 +19500,6 @@ var AnalyticsBox = React.createClass({
     bgColor: React.PropTypes.string
   },
   render: function render() {
-    var boxWrapperStyle = {
-      marginTop: 10
-    };
 
     var statBoxStyle = {
       height: 150,

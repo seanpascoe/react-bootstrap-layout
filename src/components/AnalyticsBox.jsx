@@ -7,9 +7,6 @@ var AnalyticsBox = React.createClass({
       bgColor: React.PropTypes.string
     },
     render: function() {
-      var boxWrapperStyle = {
-        marginTop: 10
-      };
 
       var statBoxStyle = {
         height: 150,
