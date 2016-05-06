@@ -19513,8 +19513,8 @@ var AnalyticsBox = React.createClass({
       background: this.props.bgColor,
       height: 75,
       color: "white",
-      boxShadow: "1px 1px 0.5px 1px rgba(0, 0, 0, 0.05)",
-      borderRadius: 2,
+      borderTopLeftRadius: 2,
+      borderTopRightRadius: 2,
       paddingLeft: 15,
       paddingRight: 5,
       paddingTop: 10
@@ -19633,7 +19633,8 @@ var FeatureStats = _react2.default.createClass({
       paddingLeft: 0,
       paddingRight: 0,
       boxShadow: "1px 1px 0.5px 1px rgba(0, 0, 0, 0.05)",
-      borderRadius: 2
+      borderBottomLeftRadius: 2,
+      borderBottomRightRadius: 2
     };
 
     return _react2.default.createElement(

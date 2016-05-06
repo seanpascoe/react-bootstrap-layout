@@ -21,7 +21,8 @@ var FeatureStats = React.createClass({
       paddingLeft: 0,
       paddingRight: 0,
       boxShadow: "1px 1px 0.5px 1px rgba(0, 0, 0, 0.05)",
-      borderRadius: 2
+      borderBottomLeftRadius: 2,
+      borderBottomRightRadius: 2
     };
 
     return (
